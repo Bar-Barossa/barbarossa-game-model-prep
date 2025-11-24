@@ -30,8 +30,8 @@
 
 <table>
 <tr>
-<td align="center">Original mesh: **~510.000 vertices**  </td>
-<td align="center">Final mesh after optimization: ~1.900 vertices</td>
+<td align="center">Original mesh: 510.000 vertices* </td>
+<td align="center">Final mesh after optimization: 1.900 vertices</td>
 </tr>
 <tr>
 <td><img src="assets/B.B.1.before.webp" width="100%"></td>
