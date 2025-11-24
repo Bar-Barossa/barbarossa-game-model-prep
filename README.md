@@ -12,7 +12,7 @@
 
 ---
 
-## 🚀 Features
+🚀 Features
 
 - ⚙️ **Automatic mesh cleanup**
 - ✂️ **Smart decimation** (percentage + target size)
@@ -26,11 +26,11 @@
 
 ---
 
-## 🖼 Before / After Preview
+🖼 Before / After Preview
 
 <table>
 <tr>
-<td align="center">Original mesh: 510.000 vertices* </td>
+<td align="center">Original mesh: 510.000 vertices </td>
 <td align="center">Final mesh after optimization: 1.900 vertices</td>
 </tr>
 <tr>
@@ -41,39 +41,39 @@
 
 ---
 
-## 📥 Installation
+📥 Installation
 
-### **1. Download**
+1. Download
 Lade die aktuelle Version hier herunter:
 
 👉 **`add-on-barbarossa-game-prep-v3.1.5.zip`**
 
 ---
 
-### **2. Install in Blender**
+2. Install in Blender
 
 1. Blender öffnen  
-2. **Edit → Preferences → Add-ons**  
-3. **Install…** anklicken  
+2. Edit → Preferences → Add-ons
+3. Install… anklicken  
 4. ZIP-Datei auswählen (nicht entpacken)  
 5. Aktivieren ✔
 
 ---
 
-## 🛠 Usage Overview
+🛠 Usage Overview
 
-### 🔧 1. Optimize (Modal)
+🔧 1. Optimize (Modal)
 - Automatic decimation  
 - Polycount control  
 - UV generation  
 - Cleanup options  
 
-### 🧽 2. Repair Tools
+🧽 2. Repair Tools
 - Triangulate  
 - Remove doubles  
 - Normal fixes  
 
-### 🎯 3. Position & Export
+🎯 3. Position & Export
 - Auto-center object  
 - Snap to floor  
 - Zero rotation  
@@ -81,7 +81,7 @@ Lade die aktuelle Version hier herunter:
 
 ---
 
-## 📸 More Preview Images
+ 📸 More Preview Images
 
 <p align="center">
   <img src="assets/B.B.2.webp" width="48%">
@@ -94,7 +94,7 @@ Lade die aktuelle Version hier herunter:
 
 ---
 
-## ❤️ Support My Work
+❤️ Support My Work
 
 If you enjoy this tool and want to support future updates:
 
@@ -106,9 +106,8 @@ If you enjoy this tool and want to support future updates:
 
 ---
 
-## 📣 Version History
-
-### **v3.1.5 – Initial Release for Blender Extensions**  
+📣 Version History
+v3.1.5 – Initial Release for Blender Extensions
 - Added automatic mesh cleanup  
 - Added transform & scale correction  
 - Added UV validation & automatic UV generation  
@@ -120,12 +119,12 @@ If you enjoy this tool and want to support future updates:
 
 ---
 
-## 📝 License  
+📝 License  
 MIT License — see `LICENSE` file.
 
 ---
 
-## 📫 Contact  
+📫 Contact  
 For questions, ideas or feedback:  
 👉 https://github.com/Bar-Barossa/barbarossa-game-model-prep/issues
 
