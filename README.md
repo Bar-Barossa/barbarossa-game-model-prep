@@ -1,119 +1,126 @@
-![B B hero](https://github.com/user-attachments/assets/117db85f-e2ce-43c2-8c94-10f44e490c3c)
+# ![BarBarossa Game Model Prep](B.B.hero.webp)
 
-# BarBarossa Game Model Prep  
-### Blender-Add-on zur automatischen Model-Optimierung für Games  
-**Version: v1.0.0**
+# **BarBarossa Game Model Prep**  
+**Blender Add-on for optimizing, repairing and preparing high-density 3D models for game engines**
 
----
-
-## 🎯 Überblick
-
-**BarBarossa Game Model Prep** ist ein leistungsstarkes Blender-Add-on, das High-Poly-Modelle automatisch zu Game-Ready-Assets optimiert – schnell, sauber und vollautomatisch.
-
-Perfekt für Künstler, Game-Designer, Indie-Entwickler und jeden, der Modelle für Unity, Unreal Engine, WebGL, Roblox oder Mobile Games vorbereitet.
-
-Das Add-on erledigt alles in einem einzigen Workflow:
-- 🔹 Mesh Cleaning  
-- 🔹 Normals Fixing  
-- 🔹 Triangulierung  
-- 🔹 Re-Centering & Alignment  
-- 🔹 Auto-Decimation (75% Standard, mehrfach stackbar)  
-- 🔹 Export als GLB/GLTF/FBX/OBJ  
+**Version:** v1.0.0  
+**Author:** BarBarossa Media  
+**License:** MIT
 
 ---
 
-## ✨ Features
+## 🎯 **Overview**
 
-### 🧹 **Automatic Mesh Cleanup**
-- Löscht kaputte Geometrie
-- Entfernt doppelte Vertices
-- Trianguliert, wenn nötig
+**BarBarossa Game Model Prep** is a Blender add-on designed to drastically simplify the process of preparing complex, high-poly 3D models for real-time use in **games, WebGL, AR/VR, and mobile applications**.
 
-### 🌀 **Optimierung & Decimation**
-- Bis zu **75 % Reduktion pro Durchlauf**
-- Mehrfach hintereinander anwendbar für extreme Optimierung
-- Behält Formen sauber und stabil
-
-### 🧭 **Automatische Ausrichtung**
-- Zentriert das Modell exakt
-- Setzt Rotation auf Null
-- Positioniert auf den Boden (Floor Snap)
-
-### 🎨 **Shading & Normal Fixes**
-- Bereinigt gestörte Normals
-- Auto Smooth 30° voreingestellt
-- Saubere Game-Engine-Optik
-
-### 📤 **Export-Tools**
-- Ein-Klick-Export in:
-  - GLB / GLTF  
-  - FBX  
-  - OBJ  
+It was created specifically to clean up AI-generated or sculpted meshes and convert them into **lightweight, engine-friendly models** — fast, automated and artist-friendly.
 
 ---
 
-## 🖼 Screenshots
-![B B 1 before](https://github.com/user-attachments/assets/7805bca7-b973-4d6d-a6a2-971b2f652f45)
+## 🚀 **Key Features**
 
-![B B 2](https://github.com/user-attachments/assets/12aadbf3-81c4-49bc-b66d-3e95c5b944f5)
+### 🔧 **Mesh Optimization (Modal Pipeline)**
+- Automatic **decimation / polycount reduction**
+- Targeted optimization based on **desired file size or target density**
+- Repeated optimization maintains silhouette quality
 
-![B B 3](https://github.com/user-attachments/assets/da541246-2370-489b-be8d-31673cf09119)
+### 🧹 **Mesh Repair Tools**
+- Remove doubles
+- Delete loose geometry
+- Fill holes
+- Make manifold
+- Triangulate (optional)
+- Automatic shading cleanup
 
-![B B 4](https://github.com/user-attachments/assets/2542e10b-cfa0-47ba-aeb7-2cfa0ef52a23)
+### 🧭 **Position, Orientation & Alignment**
+- Set origin to **Center of Volume** or **Geometry**
+- Move model to **(0,0,0) world center**
+- Snap to **floor level**
+- Zero rotation function  
+- One-click “Align Object”
 
-![B B 5 after](https://github.com/user-attachments/assets/5a5e37ec-3df6-4ee6-b4e4-7da52de9a3eb)
+### 🎥 **Preview Tools**
+- Auto-Rotate for quick visual checking
+- Adjustable rotation speed
 
-
-
-
----
-
-## 📦 Installation
-
-### **1. ZIP herunterladen**
-**BarBarossa_Game_Model_Prep_v1_0_0_INSTALL.zip**  
-→ aus den Releases
-
-### **2. Blender öffnen → Edit → Preferences → Add-ons**
-
-### **3. „Install…“ klicken**
-ZIP auswählen → bestätigen
-
-### **4. Add-on aktivieren**
-Häkchen setzen → Fertig ✔
-
----
-
-## 🧰 Nutzung
-
-1. High-Poly-Modell auswählen  
-2. Im Sidebar-Menü `Game Prep` öffnen  
-3. Auf **Prepare Model (Modal)** klicken  
-4. Optional mehrfach ausführen für stärkere Decimation  
-5. Mit **Export Model** direkt als GLB exportieren  
+### 📤 **Export Tools**
+- Export to a safe folder
+- GLB (Binary) & other formats supported
+- One-click “Export Model”
 
 ---
 
-## ❤️ Unterstützung
+## 🖼️ **Before → After (Mesh Reduction Preview)**
 
-Wenn dir das Add-on gefällt oder du meine Arbeit unterstützen möchtest:
+### 🔸 Original Mesh  
+(over 500.000 vertices)
 
-### 👉 **Spendenlink (PayPal)**  
-**https://www.paypal.com/donate/buttons/manage/https%3A%2F%2Fwww.paypal.com%2Fdonate%2F%3Fhosted_button_id%3DRKGR6LSU7WD8U**
+![Before](B.B.1.before.webp)
 
-Jede Unterstützung hilft, das Projekt weiter auszubauen. Danke! 🙏
+### 🔸 After multiple optimization passes  
+(~7.800 vertices)
+
+![After 1](B.B.2.webp)
+![After 2](B.B.3.webp)
+![After 3](B.B.4.webp)
+![After 4](B.B.5.after.webp)
 
 ---
 
-## 📄 Lizenz
+## 📦 **Installation**
 
-Dieses Projekt nutzt die MIT-Lizenz.  
-Details findest du in der Datei `LICENSE`.
+### **1. Download**
+➡ **Download the Install-ZIP here:**  
+**[barbarossa_game_model_prep_install_v1_0_0.zip](https://github.com/Bar-Barossa/barbarossa-game-model-prep/releases/latest)**
+
+### **2. Install in Blender**
+1. Open **Blender**
+2. Go to:  
+   **Edit → Preferences → Add-ons → Install**
+3. Select the ZIP file  
+   `barbarossa_game_model_prep_install_v1_0_0.zip`
+4. Activate the checkbox  
+   **BarBarossa Game Model Prep**
+
+Done! 🎉
 
 ---
 
-## 🧑‍💻 Autor
+## 📘 **Usage**
 
+After installation:  
+You will find the add-on in the **N-Panel** under:
 
-**Bar-Barossa / Sancho Letz**  
-Barbarossa Media, 2025  
+➡ **Game Prep**
+
+From here you can:
+- Run the full optimization pipeline  
+- Clean, align, fix, and prepare models  
+- Auto-rotate to examine mesh integrity  
+- Export optimized GLB files  
+
+---
+
+## ❤️ **Support My Work**
+
+If you enjoy this tool and want to support future development, you can donate here:
+
+👉 **[Donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=RKGR6LSU7WD8U)**
+
+Your support helps me create more tools for the Blender & 3D community.
+
+---
+
+## 📄 License (MIT)
+
+This project is licensed under the MIT License — free to use, modify, and distribute.
+
+---
+
+## 👑 **Credits**
+
+Created with passion by  
+**BarBarossa Media**  
+www.barbarossa-media.de
+
+---
