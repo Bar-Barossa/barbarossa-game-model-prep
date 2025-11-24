@@ -1,122 +1,136 @@
-![Hero](https://raw.githubusercontent.com/Bar-Barossa/barbarossa-game-model-prep/main/B.B.hero.webp)
+<!-- Banner -->
+<p align="center">
+  <img src="assets/B.B.hero.webp" width="100%" alt="BarBarossa Game Model Prep – Hero Banner">
+</p>
 
+<h1 align="center">BarBarossa Game Model Prep</h1>
 
-
-Hello everyone!
-
-I’m excited to share my new free Blender Add-on:
-
-# 🎉 **BarBarossa Game Model Prep 3.1.5**
-A tool designed to automatically fix, clean, decimate and prepare extremely dense, AI-generated meshes for real-time game engines.
-
----
-
-## 🚀 **What the Add-on does**
-✔ Repairs common issues in AI-generated geometry  
-✔ Removes doubles / loose geometry  
-✔ Auto-centers and floor-snaps the model  
-✔ Fixes shading  
-✔ Performs iterative mesh decimation  
-✔ Works as a modal operator (no freezing UI)  
-✔ Exports clean GLB/glTF models  
-✔ Keeps mesh details surprisingly well
+<p align="center">
+  A powerful Blender tool for fast, clean and reliable game-model preparation.<br>
+  Compatible with <strong>Blender 4.2+</strong> · Ideal for <strong>Unity, Unreal, Godot</strong>.
+</p>
 
 ---
 
-## 📉 **Before → After Example**
-Original mesh: **~510.000 vertices**  
-![Before](https://raw.githubusercontent.com/Bar-Barossa/barbarossa-game-model-prep/main/B.B.1.before.webp)
+## 🚀 Features
 
-
-![Preview 2](https://raw.githubusercontent.com/Bar-Barossa/barbarossa-game-model-prep/main/B.B.2.webp)
-
-
-![Preview 3](https://raw.githubusercontent.com/Bar-Barossa/barbarossa-game-model-prep/main/B.B.3.webp)
-
-
-![Preview 3](https://raw.githubusercontent.com/Bar-Barossa/barbarossa-game-model-prep/main/B.B.4.webp)
-
-Final mesh after optimization: ~1.900 vertices
-![After](https://raw.githubusercontent.com/Bar-Barossa/barbarossa-game-model-prep/main/B.B.5.after.webp)
-
-
-
-
+- ⚙️ **Automatic mesh cleanup**
+- ✂️ **Smart decimation** (percentage + target size)
+- 🔄 **Fix broken normals** & shading artifacts
+- 🔧 **Mesh repair tools** (triangulate, cleanup, merge)
+- 🎯 **Auto-center, snap-to-floor & zero-rotation**
+- 📐 **UV validation & automatic UV generation**
+- 📦 **Batch processing support**
+- 🏎 **Optimized for large or complex scenes**
+- 🎮 Ready for export to game engines (GLB, FBX, OBJ)
 
 ---
 
-## 📦 **GitHub Repository (Download 3.1.5)**
-👉 https://github.com/Bar-Barossa/barbarossa-game-model-prep
+## 🖼 Before / After Preview
 
-Direct install ZIP:
-👉 https://github.com/Bar-Barossa/barbarossa-game-model-prep/releases/latest
-
----
-
-## ❤️ **Support (Optional)**
-If you like the tool, you can support the project here:
-👉 https://www.paypal.com/donate/?hosted_button_id=RKGR6LSU7WD8U
-
----
-
-Feedback and ideas for improvements are very welcome!  
-Enjoy and have fun optimizing your models! 😄
-
-— **BarBarossa**
-
-## 🚀 Version 3.1.5 – Initial Release for Blender Extensions
-
-This is the first official release of **BarBarossa Game Model Prep** for the Blender Extensions platform.  
-The add-on provides a streamlined workflow for preparing clean, optimized, and engine-ready 3D models.
+<table>
+<tr>
+<td align="center">Original mesh: **~510.000 vertices**  </td>
+<td align="center">Final mesh after optimization: ~1.900 vertices</td>
+</tr>
+<tr>
+<td><img src="assets/B.B.1.before.webp" width="100%"></td>
+<td><img src="assets/B.B.5.after.webp" width="100%"></td>
+</tr>
+</table>
 
 ---
 
-### ✨ Features & Improvements
+## 📥 Installation
 
-- **Automatic mesh cleanup**  
-  Removes loose geometry and unwanted mesh islands to ensure clean topology.
+### **1. Download**
+Lade die aktuelle Version hier herunter:
 
-- **Transform and scale correction**  
-  Applies object transforms and ensures consistent scaling for export.
-
-- **UV validation and automatic UV generation**  
-  Detects missing UV layers and creates new UV maps when needed.
-
-- **Normal recalculation and shading fixes**  
-  Resolves shading artifacts and ensures consistent surface normals.
-
-- **Batch processing support**  
-  Allows preparing multiple objects at once for faster workflows.
-
-- **Improved naming consistency**  
-  Cleans and harmonizes object names to avoid conflicts in game engines.
-
-- **Performance optimizations**  
-  Better stability and speed when handling large or complex scenes.
-
-- **Blender 4.2.0+ compatibility**  
-  Fully compatible with Blender's newest extension ecosystem.
+👉 **`add-on-barbarossa-game-prep-v3.1.5.zip`**
 
 ---
 
-### 📦 Installation
+### **2. Install in Blender**
 
-1. Download the release `.zip` file.  
-2. In Blender, go to **Edit → Preferences → Add-ons**.  
-3. Click **Install…** and select the ZIP.  
-4. Enable the add-on.  
-5. The tools will appear in the **N-Panel** under *BarBarossa Tools*.
-
----
-
-### 🛠️ License
-
-Released under the **GNU GPL v3.0 or later**.  
-You are free to use, study, modify, and share this add-on under the terms of the license.
+1. Blender öffnen  
+2. **Edit → Preferences → Add-ons**  
+3. **Install…** anklicken  
+4. ZIP-Datei auswählen (nicht entpacken)  
+5. Aktivieren ✔
 
 ---
 
-### 🧭 Support
+## 🛠 Usage Overview
 
-Issues, suggestions, or contributions are welcome:  
-https://github.com/Bar-Barossa
+### 🔧 1. Optimize (Modal)
+- Automatic decimation  
+- Polycount control  
+- UV generation  
+- Cleanup options  
+
+### 🧽 2. Repair Tools
+- Triangulate  
+- Remove doubles  
+- Normal fixes  
+
+### 🎯 3. Position & Export
+- Auto-center object  
+- Snap to floor  
+- Zero rotation  
+- Export as GLB/FBX/OBJ  
+
+---
+
+## 📸 More Preview Images
+
+<p align="center">
+  <img src="assets/B.B.2.webp" width="48%">
+  <img src="assets/B.B.3.webp" width="48%">
+</p>
+
+<p align="center">
+  <img src="assets/B.B.4.webp" width="48%">
+</p>
+
+---
+
+## ❤️ Support My Work
+
+If you enjoy this tool and want to support future updates:
+
+<p align="center">
+  <a href="https://www.paypal.com/donate/?hosted_button_id=RKGR6LSU7WD8U">
+    <img src="https://img.shields.io/badge/Donate-PayPal-blue?logo=paypal" height="40">
+  </a>
+</p>
+
+---
+
+## 📣 Version History
+
+### **v3.1.5 – Initial Release for Blender Extensions**  
+- Added automatic mesh cleanup  
+- Added transform & scale correction  
+- Added UV validation & automatic UV generation  
+- Implemented normal recalculation  
+- Added batch processing support  
+- Improved naming consistency  
+- Improved performance for large scenes  
+- Compatible with Blender 4.2+
+
+---
+
+## 📝 License  
+MIT License — see `LICENSE` file.
+
+---
+
+## 📫 Contact  
+For questions, ideas or feedback:  
+👉 https://github.com/Bar-Barossa/barbarossa-game-model-prep/issues
+
+---
+
+<p align="center">
+  Made with ❤️ by <strong>BarBarossa</strong>
+</p>
