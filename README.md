@@ -34,10 +34,9 @@ Original mesh: **~510.000 vertices**
 ![Preview 3](https://raw.githubusercontent.com/Bar-Barossa/barbarossa-game-model-prep/main/B.B.3.webp)
 
 
-Final mesh after optimization: **~7.800 vertices**
 ![Preview 3](https://raw.githubusercontent.com/Bar-Barossa/barbarossa-game-model-prep/main/B.B.4.webp)
 
-
+Final mesh after optimization: ~1.900 vertices
 ![After](https://raw.githubusercontent.com/Bar-Barossa/barbarossa-game-model-prep/main/B.B.5.after.webp)
 
 
