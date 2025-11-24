@@ -1,127 +1,56 @@
-# ![BarBarossa Game Model Prep](B.B.hero.webp)
+## 🚀 Version 3.1.5 – Initial Release for Blender Extensions
 
-# **BarBarossa Game Model Prep**  
-**Blender Add-on for optimizing, repairing and preparing high-density 3D models for game engines**
-
-**Version:** v1.0.0  
-**Author:** BarBarossa Media  
-**License:** MIT
+This is the first official release of **BarBarossa Game Model Prep** for the Blender Extensions platform.  
+The add-on provides a streamlined workflow for preparing clean, optimized, and engine-ready 3D models.
 
 ---
 
-## 🎯 **Overview**
+### ✨ Features & Improvements
 
-**BarBarossa Game Model Prep** is a Blender add-on designed to drastically simplify the process of preparing complex, high-poly 3D models for real-time use in **games, WebGL, AR/VR, and mobile applications**.
+- **Automatic mesh cleanup**  
+  Removes loose geometry and unwanted mesh islands to ensure clean topology.
 
-It was created specifically to clean up AI-generated or sculpted meshes and convert them into **lightweight, engine-friendly models** — fast, automated and artist-friendly.
+- **Transform and scale correction**  
+  Applies object transforms and ensures consistent scaling for export.
 
----
+- **UV validation and automatic UV generation**  
+  Detects missing UV layers and creates new UV maps when needed.
 
-## 🚀 **Key Features**
+- **Normal recalculation and shading fixes**  
+  Resolves shading artifacts and ensures consistent surface normals.
 
-### 🔧 **Mesh Optimization (Modal Pipeline)**
-- Automatic **decimation / polycount reduction**
-- Targeted optimization based on **desired file size or target density**
-- Repeated optimization maintains silhouette quality
+- **Batch processing support**  
+  Allows preparing multiple objects at once for faster workflows.
 
-### 🧹 **Mesh Repair Tools**
-- Remove doubles
-- Delete loose geometry
-- Fill holes
-- Make manifold
-- Triangulate (optional)
-- Automatic shading cleanup
+- **Improved naming consistency**  
+  Cleans and harmonizes object names to avoid conflicts in game engines.
 
-### 🧭 **Position, Orientation & Alignment**
-- Set origin to **Center of Volume** or **Geometry**
-- Move model to **(0,0,0) world center**
-- Snap to **floor level**
-- Zero rotation function  
-- One-click “Align Object”
+- **Performance optimizations**  
+  Better stability and speed when handling large or complex scenes.
 
-### 🎥 **Preview Tools**
-- Auto-Rotate for quick visual checking
-- Adjustable rotation speed
-
-### 📤 **Export Tools**
-- Export to a safe folder
-- GLB (Binary) & other formats supported
-- One-click “Export Model”
+- **Blender 4.2.0+ compatibility**  
+  Fully compatible with Blender's newest extension ecosystem.
 
 ---
 
-## 🖼️ **Before → After (Mesh Reduction Preview)**
+### 📦 Installation
 
-### 🔸 Original Mesh  
-(over 500.000 vertices)
-
-![Before](B.B.1.before.webp)
-
-
-
-![After 1](B.B.2.webp)
-![After 2](B.B.3.webp)
-### 🔸 After multiple optimization passes  
-(~7.800 vertices)
-![After 3](B.B.4.webp)
-![After 4](B.B.5.after.webp)
+1. Download the release `.zip` file.  
+2. In Blender, go to **Edit → Preferences → Add-ons**.  
+3. Click **Install…** and select the ZIP.  
+4. Enable the add-on.  
+5. The tools will appear in the **N-Panel** under *BarBarossa Tools*.
 
 ---
 
-## 📦 **Installation**
+### 🛠️ License
 
-### **1. Download**
-➡ **Download the Install-ZIP here:**  
-**[barbarossa_game_model_prep_install_v1_0_0.zip](https://github.com/Bar-Barossa/barbarossa-game-model-prep/releases/latest)**
-
-### **2. Install in Blender**
-1. Open **Blender**
-2. Go to:  
-   **Edit → Preferences → Add-ons → Install**
-3. Select the ZIP file  
-   `barbarossa_game_model_prep_install_v1_0_0.zip`
-4. Activate the checkbox  
-   **BarBarossa Game Model Prep**
-
-Done! 🎉
+Released under the **GNU GPL v3.0 or later**.  
+You are free to use, study, modify, and share this add-on under the terms of the license.
 
 ---
 
-## 📘 **Usage**
+### 🧭 Support
 
-After installation:  
-You will find the add-on in the **N-Panel** under:
-
-➡ **Game Prep**
-
-From here you can:
-- Run the full optimization pipeline  
-- Clean, align, fix, and prepare models  
-- Auto-rotate to examine mesh integrity  
-- Export optimized GLB files  
-
----
-
-## ❤️ **Support My Work**
-
-If you enjoy this tool and want to support future development, you can donate here:
-
-👉 **[Donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=RKGR6LSU7WD8U)**
-
-Your support helps me create more tools for the Blender & 3D community.
-
----
-
-## 📄 License (MIT)
-
-This project is licensed under the MIT License — free to use, modify, and distribute.
-
----
-
-## 👑 **Credits**
-
-Created with passion by  
-**BarBarossa Media**  
-www.barbarossa-media.de
-
----
+Issues, suggestions, or contributions are welcome:  
+https://github.com/Bar-Barossa
