@@ -57,11 +57,12 @@ It was created specifically to clean up AI-generated or sculpted meshes and conv
 
 ![Before](B.B.1.before.webp)
 
-### 🔸 After multiple optimization passes  
-(~7.800 vertices)
+
 
 ![After 1](B.B.2.webp)
 ![After 2](B.B.3.webp)
+### 🔸 After multiple optimization passes  
+(~7.800 vertices)
 ![After 3](B.B.4.webp)
 ![After 4](B.B.5.after.webp)
 
